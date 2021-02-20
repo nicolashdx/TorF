@@ -1,0 +1,60 @@
+* {
+    text-align: center;
+    background-color: #313233;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.4em;
+    }
+
+    h1, h2, input, select, button, p {
+        font-size: calc(10px + 2vmin);
+    }
+
+    head {
+        display: none;
+    }
+
+    input {
+        background-color: #ffffff;
+        color: #313233;
+    }
+    select {
+        border: none;
+        text-align: center;
+    }
+
+    p {
+        padding-bottom: 0;
+    }
+
+    h1 {
+        padding-top: 0;
+    }
+
+    #cond_symb {
+        background-color: #ffffff;
+        color: #313233;
+    }
+
+    #mainBtn {
+        background-color: #313233;
+        cursor: pointer;
+        color: #ffffff;
+        border-style: solid;
+        border: solid;
+        text-decoration: none;
+    }
+
+    ::placeholder {
+        color: #858585;
+      }
+
+    ::-ms-input-placeholder {
+        color: #858585;
+      }
+
+    

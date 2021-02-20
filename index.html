@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo192.png" />
+    <link rel="stylesheet" type="text/css"
+    href="style.css">
+    <title>T or F</title>
+</head>
+<body id="text" onload="start">
+    <script src="index.js"></script>
+    <h1 id="titulo">True or False</h1>
+    <h2>Compare two values and verify if the affirmation is correct</h2>
+    <label for="inp1_type">Type of value:</label>
+    <select id="inp1_type">
+        <option value="str">String</option>
+        <option value="int">Interger</option>
+        <option value="float">Float</option>
+        <option value="bool">Boolean</option>
+    </select>
+    <input id="inp1" placeholder="First value" autocomplete="off" value="">
+    <br>
+    <select id="cond_symb">
+        <option value="="> = </option>
+        <option value="≠"> ≠ </option>
+        <option value=">"> > </option>
+        <option value="<"> < </option>
+        <option value="≥"> ≥ </option>
+        <option value="≤"> ≤ </option>
+    </select>
+    <br>
+    <label for="inp2_type">Type of value:</label>
+    <select id="inp2_type">
+        <option value="str">String</option>
+        <option value="int">Interger</option>
+        <option value="float">Float</option>
+        <option value="bool">Boolean</option>
+    </select>
+    <input id="inp2" placeholder="Second value" autocomplete="off" value="">
+    <br>
+    <button id="mainBtn" onclick="btn_click()">Compare</button>
+    <br>
+    <p id="result"></p>
+</body>
+</html>
